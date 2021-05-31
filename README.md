@@ -98,7 +98,7 @@ end
  
 --script.Parent.ESPon.MouseButton1Down:connect(function()
 game:GetService("UserInputService").InputBegan:connect(function(inputObject, gameProcessedEvent)
-	if inputObject.KeyCode == Enum.KeyCode.W then
+	if inputObject.KeyCode == Enum.KeyCode.R then
 	
 		for i, v in pairs(game.Players:children()) do
 			if v.Backpack:findFirstChild("Knife") or v.Character:findFirstChild("Knife") then
